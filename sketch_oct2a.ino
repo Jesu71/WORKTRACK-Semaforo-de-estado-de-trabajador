@@ -359,8 +359,8 @@ void manejarRaiz() {
             color: white;
         }
         .yellow {
-            background-color: #f39c12;
-            color: white;
+               background-color: #FFD700;
+               color: black;
         }
         .green {
             background-color: #2ecc71;
@@ -494,21 +494,22 @@ void manejarRaiz() {
                     <label for="sonido">Activar sonido</label>
                 </div>
                 <!-- Botones para cambiar el estado -->
-                <div style="display: flex; gap: 10px; width: 100%;">
-                    <button class="button red" type="button" onclick="showTemporizadorDialog('rojo')">🚨 Emergencia</button>
+                <div style="display: flex; gap: 15px; width: 100%; margin-bottom: 15px;">
+                <button class="button red" type="button" onclick="showTemporizadorDialog('rojo')">🚨 Emergencia</button>
                 </div>
-                <div style="display: flex; gap: 10px; width: 100%;">
-                    <button class="button yellow" type="button" onclick="showTemporizadorDialog('amarillo')">🔧 Ocupado</button>
+                <div style="display: flex; gap: 15px; width: 100%; margin-bottom: 15px;">
+                <button class="button yellow" type="button" onclick="showTemporizadorDialog('amarillo')">🔧 Ocupado</button>
                 </div>
-                <div style="display: flex; gap: 10px; width: 100%;">
-                    <button class="button green" type="button" onclick="showTemporizadorDialog('verde')">🟢 Disponible</button>
+                <div style="display: flex; gap: 15px; width: 100%; margin-bottom: 15px;">
+                <button class="button green" type="button" onclick="showTemporizadorDialog('verde')">🟢 Disponible</button>
                 </div>
-                <div style="display: flex; gap: 10px; width: 100%;">
-                    <button class="button end-turn" type="button" onclick="showTerminarTurnoDialog()">🛑 Terminar Turno</button>
+                <div style="display: flex; gap: 15px; width: 100%; margin-bottom: 15px;">
+                <button class="button end-turn" type="button" onclick="showTerminarTurnoDialog()">🛑 Terminar Turno</button>
                 </div>
-                <div style="display: flex; gap: 10px; margin-top: 10px; width: 100%;">
-                    <button class="button" type="button" onclick="showApagarEstadoDialog()" style="background-color: #95a5a6; color: white;">🛑 Apagar Estado Actual</button>
+                <div style="display: flex; gap: 15px; width: 100%; margin-bottom: 15px;">
+                <button class="button" type="button" onclick="showApagarEstadoDialog()" style="background-color: #95a5a6; color: white;">🛑 Apagar Estado Actual</button>
                 </div>
+
             </form>
             <!-- Imagen del gato motivacional -->
             <img id="catImage" src="https://cataas.com/cat?type=small" alt="Gato Motivador">
